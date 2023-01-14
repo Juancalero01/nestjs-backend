@@ -70,8 +70,7 @@ export class EmployeeService {
           },
         );
       }
-    }
-    return 'No results found';
+    } else return 'No results found';
   }
 
   //! This action removes a #${id} employee
@@ -92,7 +91,6 @@ export class EmployeeService {
           },
         );
       }
-    }
-    return 'No results found';
+    } else return 'No results found';
   }
 }
