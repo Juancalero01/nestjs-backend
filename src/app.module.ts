@@ -11,7 +11,7 @@ import { EmployeeModule } from './employee/employee.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'calero',
+      password: '',
       database: 'Employee',
       autoLoadEntities: true,
       logging: true,
